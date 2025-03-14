@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Международные платежи из России — 1% комиссия</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: #003366;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: white;
+        }
+        .hero h1 {
+            font-size: 36px;
+            color: #003366;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #666;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background: #ff6600;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            background: white;
+            padding: 50px;
+            text-align: center;
+        }
+        .feature {
+            width: 30%;
+        }
+        .feature h3 {
+            color: #003366;
+            font-size: 22px;
+        }
+        .footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        Международные платежи с комиссией 1% и выгодной конвертацией
+    </div>
+
+    <div class="hero">
+        <h1>Международные платежи для бизнеса</h1>
+        <p>Агентская комиссия 1% и скидка на конвертацию рубля в нужную валюту в зависимости от объема.</p>
+        <p>Платежи дешевле банков в 2 раза.</p>
+        <a href="#contact" class="cta-button">Оставить заявку</a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h3>Низкий порог входа</h3>
+            <p>Работаем с платежами от 10 000 USD</p>
+        </div>
+        <div class="feature">
+            <h3>Низкие комиссии</h3>
+            <p>Фиксированная ставка 1%</p>
+        </div>
+        <div class="feature">
+            <h3>Широкая география</h3>
+            <p>Работаем в 61 стране</p>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h3>Быстрая обработка</h3>
+            <p>Средняя скорость платежа 1-4 дня</p>
+        </div>
+        <div class="feature">
+            <h3>Большие объемы</h3>
+            <p>Проводим платежи на 10 млрд рублей в месяц</p>
+        </div>
+        <div class="feature">
+            <h3>Юридическая безопасность</h3>
+            <p>Работаем по договору платежного агента</p>
+        </div>
+    </div>
+
+    <div class="hero" id="contact">
+        <h2>Оставьте заявку</h2>
+        <p>Свяжитесь с нами, и мы поможем вам провести международный платеж.</p>
+        <form>
+            <input type="text" placeholder="Ваше имя" required><br><br>
+            <input type="email" placeholder="Ваш email" required><br><br>
+            <input type="text" placeholder="Сумма платежа" required><br><br>
+            <button type="submit" class="cta-button">Отправить</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Международные платежи | Все права защищены
+    </div>
+
+</body>
+</html>
